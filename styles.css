@@ -1,6 +1,6 @@
 
 html { 
-  background: url(bg.jpg) no-repeat center center fixed; 
+  background: url(bg2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -15,6 +15,11 @@ body {
     line-height: 1.5em;
 }
 
+.logo {
+    display:block;
+    margin:auto;
+}
+
 h1 {
     font-family: 'Dosis', sans-serif;
     /*font-family: 'Permanent Marker', cursive;*/
@@ -22,11 +27,29 @@ h1 {
     font-size: 2.5em;
 }
 
+h2, h3 {
+    font-family: 'Dosis', sans-serif;
+}
+
+header {
+    background-color: rgba(255,255,255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+article {
+    background-color: rgba(255,255,255, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
 .content {
   max-width: 600px;
   margin: auto;
-  margin-left: 20px;
-  background-color: rgba(255, 255, 255, 0.8);
+  /*margin-left: 0px;*/
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 2em;
 }
 
