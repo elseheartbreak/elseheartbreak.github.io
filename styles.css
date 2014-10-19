@@ -132,7 +132,7 @@ article {
 
 
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 560px) { /*750*/
   .subtitle {
       margin: 20px;
   }
