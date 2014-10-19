@@ -41,13 +41,13 @@ body {
 h1 {
     font-family: 'Dosis', sans-serif;
     text-align: center;
-    font-size: 3.5em;
+    font-size: 2.5em;
 }
 
 .subtitle {
   text-align: center;
-  /*color: rgb(250, 170, 150);*/
   color: white;
+  margin: 50px;
 }
 
 h2, h3 {
@@ -87,15 +87,9 @@ article {
   padding: 2em;
   margin-top: 20px;
   margin-bottom: 20px;
-  max-width: calc(50% - 30px);
-}
 
-.bigmovie {
-  display: block;
-}
-
-.smallmovie {
-  display: none;
+  width: calc(100% - 40px);
+  max-width: 100%;
 }
 
 .l {
@@ -119,6 +113,7 @@ article {
   margin-bottom: 20px;
 }
 
+
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -137,23 +132,14 @@ article {
 
 
 
-@media only screen and (max-width: 750px) {
+@media only screen and (min-width: 750px) {
   .subtitle {
-      margin: 50px;
+      margin: 20px;
   }
   h1 {
-      font-size: 2.5em;
+      font-size: 3.5em;
   }
-  
   .textbox {
-    width: calc(100% - 40px);
-    max-width: 100%;
-  }
-  .bigmovie {
-    display: none;
-  }
-
-  .smallmovie {
-    display: block;
+    max-width: calc(50% - 30px);
   }
 }
