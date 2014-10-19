@@ -3,7 +3,6 @@
 /*font-family: 'Droid Sans Mono', ;*/
 /*font-family: 'Play', sans-serif;*/
 
-
 * { 
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
@@ -44,6 +43,10 @@ h1 {
     font-size: 1.5em;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+img {
+  width: 100%;
 }
 
 .subtitle {
@@ -115,7 +118,6 @@ article {
   margin-bottom: 20px;
 }
 
-
 .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -131,8 +133,6 @@ article {
     width: 100%;
     height: 100%;
 }
-
-
 
 @media only screen and (min-width: 750px) {
   body {
