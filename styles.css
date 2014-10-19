@@ -41,7 +41,7 @@ body {
 h1 {
     font-family: 'Dosis', sans-serif;
     text-align: center;
-    font-size: 2.5em;
+    font-size: 2.0em;
 }
 
 .subtitle {
@@ -132,7 +132,7 @@ article {
 
 
 
-/*@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 750px) {
   body {
     font-size: 1.1em;
   }
@@ -145,4 +145,4 @@ article {
   .textbox {
     max-width: calc(50% - 30px);
   }
-}*/
+}
