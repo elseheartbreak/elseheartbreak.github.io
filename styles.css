@@ -28,7 +28,7 @@ a:hover {
 }
 
 body {
-    font-size: 1.1em;
+    font-size: 1.3em;
     line-height: 1.5em;
     color: rgb(255, 190, 72);
 }
@@ -132,7 +132,10 @@ article {
 
 
 
-@media only screen and (min-width: 560px) { /*750*/
+/*@media only screen and (min-width: 750px) {
+  body {
+    font-size: 1.1em;
+  }
   .subtitle {
       margin: 20px;
   }
@@ -142,4 +145,4 @@ article {
   .textbox {
     max-width: calc(50% - 30px);
   }
-}
+}*/
