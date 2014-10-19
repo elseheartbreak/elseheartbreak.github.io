@@ -89,6 +89,14 @@ article {
   max-width: 47%;
 }
 
+.bigmovie {
+  display: block;
+}
+
+.smallmovie {
+  display: none;
+}
+
 .l {
   float: left;
   margin-left: 20px;
@@ -106,4 +114,43 @@ article {
 
 .last {
   margin-bottom: 20px;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media (max-width: 800px) {
+  .subtitle {
+      margin: 50px;
+  }
+  h1 {
+      font-size: 2.5em;
+  }
+  
+  .textbox {
+    width: calc(100% - 40px);
+    max-width: 100%;
+  }
+  .bigmovie {
+    display: none;
+  }
+
+  .smallmovie {
+    display: block;
+  }
 }
