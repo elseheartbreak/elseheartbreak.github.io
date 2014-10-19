@@ -1,6 +1,33 @@
+
+html { 
+  background: url(bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+    /*font-family: 'Cabin', sans-serif;*/
+    /*font-family: 'Droid Sans Mono', ;*/
+    /*font-family: 'Play', sans-serif;*/
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-family: 'Dosis', sans-serif;
+    /*font-family: 'Permanent Marker', cursive;*/
+    text-align: center;
+    font-size: 2.5em;
+}
+
 .content {
   max-width: 600px;
   margin: auto;
+  margin-left: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 2em;
 }
 
 video {
