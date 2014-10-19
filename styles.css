@@ -86,7 +86,7 @@ article {
   background-color: rgba(250,250,250,0.9);
   color: rgb(240, 70, 120);
   border-radius: 2px;
-  padding: 2em;
+  padding: 1em;
   margin-top: 20px;
   margin-bottom: 20px;
 
@@ -146,5 +146,6 @@ article {
   }
   .textbox {
     max-width: calc(50% - 30px);
+    padding: 2em;
   }
 }
