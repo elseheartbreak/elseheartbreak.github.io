@@ -10,6 +10,7 @@
 }
 
 html { 
+  background-color: black;
   background: url(bg2.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -43,6 +44,14 @@ h1 {
     font-size: 1.5em;
     margin-left: 0px;
     margin-right: 0px;
+}
+
+ul {
+  margin-left: -30px;
+}
+
+li {
+  margin-bottom: 1em;
 }
 
 img {
