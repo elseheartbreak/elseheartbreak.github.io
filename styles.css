@@ -82,6 +82,10 @@ h3 {
   /*color: rgb(200, 0, 120);*/
 }
 
+.credits p {
+  margin-top: 0px;
+}
+
 header {
     background-color: rgba(255,255,255, 0.9);
     border-radius: 5px;
