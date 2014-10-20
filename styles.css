@@ -1,8 +1,4 @@
 
-/*font-family: 'Cabin', sans-serif;*/
-/*font-family: 'Droid Sans Mono', ;*/
-/*font-family: 'Play', sans-serif;*/
-
 * { 
     -moz-box-sizing: border-box; 
     -webkit-box-sizing: border-box; 
@@ -39,7 +35,11 @@ body {
 }
 
 h1 {
-    font-family: 'Dosis', sans-serif;
+    /*font-family: 'Dosis', sans-serif;*/
+    /*font-family: 'Cabin', sans-serif;*/
+    /*font-family: 'Droid Sans Mono', ;*/
+    /*font-family: 'Play', sans-serif;*/
+    font-family: 'Inconsolata', sans-serif;
     text-align: center;
     font-size: 1.5em;
     margin-left: 0px;
@@ -62,10 +62,12 @@ img {
   text-align: center;
   color: white;
   margin: 50px;
+  font-family: 'Inconsolata', sans-serif;
 }
 
 h2, h3 {
-    font-family: 'Dosis', sans-serif;
+    /*font-family: 'Dosis', sans-serif;*/
+    font-family: 'Inconsolata', sans-serif;
     margin-top: 5px;
 }
 
