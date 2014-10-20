@@ -110,6 +110,10 @@ article {
 
   width: calc(100% - 40px);
   max-width: 100%;
+
+  border-color: rgb(250, 23, 75);
+  border-width: 5px;
+  border-style: double;
 }
 
 .l {
@@ -127,6 +131,10 @@ article {
 .screenshot {
   margin: 20px 20px 0px 20px;
   width: calc(100% - 40px);
+
+  border-color: rgb(250, 23, 75);
+  border-width: 5px;
+  border-style: double;
 }
 
 .last {
