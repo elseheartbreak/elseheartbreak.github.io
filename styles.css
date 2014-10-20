@@ -15,7 +15,7 @@ html {
 }
 
 a {
-  color: rgb(0,155,200);
+  color: rgb(150,155,200);
   text-decoration: none;
 }
 
@@ -69,14 +69,15 @@ h2, h3 {
     /*font-family: 'Dosis', sans-serif;*/
     font-family: 'Inconsolata', sans-serif;
     margin-top: 5px;
+    color: rgb(255, 180, 50);
 }
 
 h3 {
   margin-bottom: 0px;
 }
 
-.credits p {
-  color: rgb(200, 0, 120);
+.credits h3 {
+  /*color: rgb(200, 0, 120);*/
 }
 
 header {
@@ -97,9 +98,10 @@ article {
 }
 
 .textbox {
-  background-color: rgba(250,250,250,0.95);
-  color: rgb(240, 70, 120);
-  border-radius: 2px;
+  background-color: rgba(120,20,0,0.97);
+  /*color: rgb(240, 70, 120);*/
+  color: rgb(255, 170, 90);
+  border-radius: 4px;
   padding: 1em;
   margin-top: 20px;
   margin-bottom: 20px;
