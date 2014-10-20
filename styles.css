@@ -112,8 +112,14 @@ article {
   max-width: 100%;
 
   border-color: rgb(250, 23, 75);
-  border-width: 5px;
+  border-width: 6px;
   border-style: double;
+}
+
+hr {
+  border-color: rgb(250, 23, 75);
+  border-width: 0px;
+  margin-bottom: 70px;
 }
 
 .l {
@@ -133,7 +139,7 @@ article {
   width: calc(100% - 40px);
 
   border-color: rgb(250, 23, 75);
-  border-width: 5px;
+  border-width: 6px;
   border-style: double;
 }
 
