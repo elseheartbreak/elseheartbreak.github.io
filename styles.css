@@ -24,7 +24,7 @@ a:hover {
 }
 
 body {
-    font-size: 1.3em;
+    font-size: 1.2em;
     line-height: 1.5em;
     color: rgb(255, 190, 72);
 }
@@ -200,5 +200,11 @@ hr {
   }
   .large {
     display: inherit;
+  }
+}
+
+@media only screen and (max-width:  895px) and (min-width: 750px) {
+  .subtitle {
+      margin: 20px 200px;
   }
 }
