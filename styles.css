@@ -187,7 +187,7 @@ hr {
   }
   .textbox {
     max-width: calc(50% - 30px);
-    padding: 2em;
+    padding: 1.5em;
   }
   .half {
     max-width: calc(50% - 40px);
