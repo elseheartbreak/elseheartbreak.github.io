@@ -65,6 +65,7 @@ img {
   color: white;
   margin: 50px;
   font-family: 'Inconsolata', sans-serif;
+  text-decoration: none;
 }
 
 h2, h3 {
