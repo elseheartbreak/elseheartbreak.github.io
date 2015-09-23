@@ -139,6 +139,28 @@ hr {
   margin-right: 20px;
 }
 
+.full {
+    margin-left: 20px;
+    margin-right: 20px;
+    width:100%;
+    float:right;
+
+    background-color: rgba(125,35,5,0.97);
+  /*color: rgb(240, 70, 120);*/
+  color: rgb(255, 170, 90);
+  border-radius: 4px;
+  padding: 1em;
+  margin-top: 0px;
+  margin-bottom: 20px;
+
+  width: calc(100% - 40px);
+  max-width: 100%;
+
+  border-color: rgb(250, 23, 75);
+  border-width: 6px;
+  border-style: double;
+}
+
 .screenshot {
   margin: 20px 20px 0px 20px;
   width: calc(100% - 40px);
