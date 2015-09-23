@@ -76,7 +76,11 @@ h2, h3 {
 }
 
 h3 {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.extra-top-margin {
+    margin-top:50px;
 }
 
 .credits h3 {
