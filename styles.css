@@ -125,6 +125,22 @@ article {
   border-style: double;
 }
 
+.humble {
+    color: rgb(255, 170, 90);
+    border-radius: 4px;
+    padding: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: calc(100% - 40px);
+    max-width: 100%;
+
+    border-color: rgb(250, 23, 75);
+    border-width: 6px;
+    border-style: double;
+    margin-left: 20px;
+}
+
 hr {
   border-color: rgb(250, 23, 75);
   border-width: 0px;
