@@ -141,6 +141,28 @@ article {
     margin-left: 20px;
 }
 
+.important {
+    border-radius: 4px;
+    padding: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    width: calc(100% - 40px);
+    max-width: 100%;
+
+    border-color: rgb(250, 23, 75);
+    border-width: 6px;
+    border-style: double;
+    margin-left: 20px;
+
+    background-color: rgb(200, 19, 100);
+    color: rgb(255, 255, 99);
+}
+
+.important a {
+    color: white;
+}
+
 hr {
   border-color: rgb(250, 23, 75);
   border-width: 0px;
