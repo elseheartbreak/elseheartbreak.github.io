@@ -155,12 +155,12 @@ article {
     border-style: double;
     margin-left: 20px;
 
-    background-color: rgb(200, 19, 100);
+    background-color: rgb(180, 10, 100);
     color: rgb(255, 255, 99);
 }
 
 .important a {
-    color: white;
+    color: rgb(150, 255, 255);
 }
 
 hr {
